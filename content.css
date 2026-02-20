@@ -1,0 +1,67 @@
+.photo{
+    background-position: right center;
+    background-size: cover;
+    transition: 0.7s;
+}
+.photo a {
+    display: flex;
+}
+.photo:hover {
+    background-position: 0 center;
+}
+
+.ranking_tab .widget_photo_list .photo_box {
+    background-position: right center;
+    background-size: cover;
+}
+
+.ranking_tab .widget_photo_list .photo_box a{
+    display: grid;
+}
+
+.ranking_tab .widget_photo_list a .dscr { 
+    background-color: #fff;
+}
+
+#story_kr {
+    position: relative;
+}
+
+.profile_top_right_wrap iframe, .profile_top_right_wrap video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+
+.profile_top_right_wrap iframe {
+    height: 100%;
+}
+
+/** dvd.php **/
+.profile_gallery {
+    background-position: right center;
+    background-size: cover;
+    transition: 0.7s;
+}
+.profile_picture:hover{
+    position:relative;
+}
+.story h2 {
+    display: inline-block;
+}
+.profile_gallery:hover {
+    background-position: top left;
+    /* background-position: 0 center;
+    position: absolute;
+    z-index: 10000;
+    width: 800px;
+    height: 538px;
+    top: 0;
+    left: 0; */
+}
+
+/** all page **/
+.sample_dvd_img_msg{
+    display:none;
+}

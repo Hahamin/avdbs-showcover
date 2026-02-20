@@ -1,0 +1,17 @@
+{
+  "name": "ShowCover",
+  "description": "Showing Cover",
+  "version": "2.9",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://www.avdbs.com/*"],
+    "run_at": "document_end",
+    "js": [
+      "constants.js",
+      "utils.js",
+      "refferer.js",
+      "content.js"
+    ],
+    "css": ["content.css"]
+  }]
+}
